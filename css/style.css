@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+
+/* iniciar sesion */
+.sesion {
+
+      margin: 30px auto;
+      width: 100%;
+      max-width: 500px;
+      background-color: #E3B45D;
+      padding: 30px;
+      border: 2px solid black;
+}
+.sesion input {
+                margin: 7px;
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+                width: 100%;
+                height: 50px
+}
+
+h2  {
+     text-align: center;
+     margin-bottom: 20px;
+     color: rgb(#BC8F8F)
+}
+input submit {
+              background: linear-gradient(#FFDA63, #FFB940);
+              border:0;
+              color: brown;
+              opacity: :0.8;
+              cursor: pointer;
+              border-radius: 20px;
+              margin-bottom: 0;
+}
+/* fin de iniciar sesion */
+/* registro */
+.reg  {
+      overflow: hidden;
+}
+.registro {
+          margin: 50px auto;
+          width: 60%;
+          max-width: 500px;
+          background-color: #E3B45D;
+          padding: 20px;
+          border: 1px solid black;
+          float: left;
+          height: 100%;
+          margin-inline: 35%;
+}
+/* fin de registro */
+
+/* preguntas */
+
+.main .articulos {
+  width: 70%;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+ .main .articulos article {
+   padding: 20px;
+   background:#fff;
+   margin-bottom: 20px;
+
+}
+
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8 {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3%;
+}
+
+.main h2 {
+  text-decoration: underline;
+}
+/* fin de preguntas.php */
+
+/* jugar.php */
+.const {
+  margin-inline: 35%;
+  margin-top: 3%;
+}
+.const1 {
+  margin-top: 5%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+/* fin de jugar .php */
+
+
+
+
+.bienvenido2 {
+            font-style: oblique;
+            font-family: comic;
+            font-size: 50px;
+            margin: 20px auto;
+
+}
+
+
+
+/* agregar pregunta */
+
+
+.agregarpregunta input {
+  margin: 7px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  height: 50px
+}
+
+/* Estilo de las Tablas */
+
+.creartabla{
+  width: 80%;
+  border: solid 2px black;
+  margin: auto;
+  margin-top: 7%;
+  border-radius: 5px;
+  background-color: #E3B45D;
+  padding: 2%;
+  color: white;
+}
+
+.creartabla h1{
+  width: 30%;
+  margin: auto;
+}
+
+.creartabla div{
+width: 30%;
+margin: auto;
+text-align: center;
+}
+
+.creartabla h1 input{
+  width: 100%;
+  border: solid 1px black;
+  border-radius: 3px;
+  padding: 2%;
+}
+
+
+ .creartabla ul li{
+   list-style: none;
+   border-radius: 10px;
+   padding: 0 0 0.6% 2%;
+   background: #000000c7;
+   margin-top: 3%;
+ }
+
+ .creartabla ul li ul {
+   display: flex;
+ }
+
+ .creartabla ul li ul li{
+   background: none;
+   margin-right: 1%;
+ }
+
+.creartabla ul li ul li:nth-child(2) {
+  width: 21%;
+}
+
+.creartabla ul li ul li:nth-child(4) {
+  width: 21%;
+}
+
+.creartabla ul li ul li input{
+  width:100%;
+}
+
+.creartabla button{
+  width: 30%;
+  padding: 1% 0;
+  border-radius: 10px;
+  display: block;
+  font-size: 1.5em;
+  margin:auto;
+  margin-top: 3%;
+}
