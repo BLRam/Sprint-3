@@ -10,7 +10,7 @@ if ($_POST) {
   $respuesta3=$_POST["respuesta3"];
   try {
 
-    $agregarpregunta = $basededatos->prepare("INSERT INTO preguntas VALUES(default,'$pregunta', '$respuesta','$respuesta1','$respuesta2','$respuesta3')");
+    $agregarpregunta = $basededatos->prepare("INSERT INTO pregunta VALUES(default,'$pregunta', '$respuesta','$respuesta1','$respuesta2','$respuesta3')");
 
     $agregarpregunta->execute();
 
@@ -34,20 +34,20 @@ if ($_POST) {
      <title></title>
    </head>
    <body>
-     <form class="agregarpregunta" action="agregarpregunta.php" method="post">
-       <label for="">pregunta</label>
+      <form class="agregarpregunta" action="agregarpregunta.php" method="post"  enctype="multipart/form-data">
+       <label for="">Pregunta</label>
        <input type="text" name="pregunta" value="">
        <br>
-       <label for="">respuesta Correcta</label>
+       <label for="">Respuesta Correcta</label>
        <input type="text" name="respuesta" value="">
        <br>
-       <label for="">respuesta Incorrecta 1</label>
+       <label for="">Respuesta Incorrecta 1</label>
        <input type="text" name="respuesta1" value="">
        <br>
-       <label for="">respuesta Incorrecta 2</label>
+       <label for="">Respuesta Incorrecta 2</label>
        <input type="text" name="respuesta2" value="">
        <br>
-       <label for="">respuesta Respuesta Incorrecta 3</label>
+       <label for="">Respuesta Respuesta Incorrecta 3</label>
        <input type="text" name="respuesta3" value="">
        <br>
 

@@ -107,10 +107,12 @@ function recordardatos($i){
           <?php if (recordardatos("primeracolumnaunica")): ?>
               checked
             <?php endif; ?>>
+
      </li>
 
     </ul>
   </li>
+  
 
   <button type="submit" name="button">Crear Tabla</button>
 

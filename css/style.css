@@ -84,7 +84,19 @@ input submit {
   text-decoration: underline;
 }
 /* fin de preguntas.php */
-
+/* agregar pregunta */
+.agregarpregunta {
+          margin: 2% auto;
+          width: 50%;
+          max-width: 500px;
+          background-color: #E3B45D;
+          padding: 2%;
+          border: 2px solid black;
+          float: center;
+          height: 100%;
+          margin-inline: 33%;
+}
+/* fin de agregar pregunta */
 /* jugar.php */
 .const {
   margin-inline: 35%;
